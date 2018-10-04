@@ -1,0 +1,18 @@
+{
+    "version": "0.0.1",
+    "job": {
+        "type": "General",
+        "files": {
+            "includes": [
+                "**/*.py"
+            ]
+        },
+        "name": "QTSP",
+        "startupCommand": "python",
+        "startupScript": "DDQN.py",
+        "arguments": "",
+        "workingDirectory": ".",
+        "batchArguments": []
+    },
+    "platform": {}
+}
